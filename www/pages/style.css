@@ -1,0 +1,18 @@
+body{
+	background-image:url(truck.jpg);
+	font-family: 'Oleo Script', cursive;
+}
+.lg-container{
+	width:350px;
+	margin:0px auto;
+	padding:10px 40px;
+	border:1px solid #f4f4f4;
+	background:rgba(96,96,96,.5);
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	border-radius:10px;
+	
+	-webkit-box-shadow: 0 0 2px #aaa;
+	-moz-box-shadow: 0 0 2px #aaa;
+	box-shadow: 0 0 2px #aaa;
+}
