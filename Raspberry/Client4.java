@@ -1,7 +1,7 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * This is the server code that runs on the Raspberry Pi which is connected to a camera
+ * This receives the message from the NodeMCU for incomming vehicle and take the picture via the camera and process it.
+ * The processed data is sent to a remote database. The databse connection is in the jdbc.java file.
  */
 
 // import jdbc;
