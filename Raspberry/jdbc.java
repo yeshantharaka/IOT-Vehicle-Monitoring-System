@@ -1,7 +1,7 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * This is the class which is used to connect to the remote database. 
+ * The URL and the credentials of the SQLserver should be given.
+ * 
  */
 
 import java.sql.Connection;
@@ -15,12 +15,12 @@ public class jdbc {
     
 //    Set connection driver and database url
     String driver="com.mysql.jdbc.Driver";
-    String url="jdbc:mysql://192.168.8.105:3306/watchdog";
+    String url="jdbc:mysql://192.168.8.105:3306/watchdog";  // URL and name of the database
  
 //    Set the connection with SQL Server
     Connection getConnection() throws  Exception{
         Class.forName(driver);
-        Connection con= DriverManager.getConnection(url, "root", "");
+        Connection con= DriverManager.getConnection(url, "root", "");   // credentials for the SQLserver
         return con;
     }
     
